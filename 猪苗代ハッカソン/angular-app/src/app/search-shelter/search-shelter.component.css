@@ -1,0 +1,108 @@
+.toolbar {
+  background-color: #7d0842;
+  font-size: 20px;
+  color: white;
+}
+mat-sidenav-content {
+  background-color: #f7e8cf;
+  height: 100%;
+}
+
+mat-list {
+  background-color: #7d0842;
+  height: 100%;
+}
+
+mat-toolbar-row {
+  padding: 0px;
+}
+.mat-sidenav-container {
+  height: calc(205vh - 115vh);
+}
+mat-sidenav {
+  width: 200px;
+  background-color: azure;
+}
+mat-list a {
+  text-decoration: none;
+  color: white;
+}
+mat-list-item {
+  margin: 10px 0px 10px;
+}
+.summary {
+  font-size: 20px;
+  text-align: center;
+}
+.flex {
+  /*コレ追加*/
+  display: flex;
+  margin: auto;
+  border-bottom: 3px solid #f6ba33;
+}
+.flexSecond {
+  /*コレ追加*/
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+.square {
+  width: 50px;
+  height: 50px;
+  margin: 10px 5px auto 10px;
+  background: greenyellow; /*背景色*/
+  border-radius: 50%;
+}
+.distance {
+  padding: 0.5rem 0rem;
+  margin-bottom: 0.2rem;
+  width: 60px;
+  margin-left: auto;
+  font-weight: bold;
+  font-size: 20px;
+}
+.facility-name {
+  padding: 0.5rem 0rem;
+  font-size: 20px;
+  margin-bottom: 0.2rem;
+  margin-left: 10px;
+  margin-right: 5px;
+  width: 250px;
+  font-weight: bold;
+}
+iframe {
+  margin: 10px 40px;
+}
+.availability {
+  font-size: 15px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+.availabilitycircle {
+  width: 40px;
+  height: 40px;
+  margin: 10px 5px 10px 5px;
+  background: greenyellow; /*背景色*/
+  border-radius: 50%;
+}
+form * {
+  vertical-align: top;
+}
+
+select {
+  font-size: 20px;
+  width: 70px;
+  margin-left: 20px;
+}
+.num {
+  font-size: 20px;
+}
+.facility-namesecound {
+  padding: 0.5rem 0rem;
+  font-size: 18px;
+  margin-bottom: 0.2rem;
+  margin-left: 20px;
+  margin-right: 5px;
+  width: 250px;
+  font-weight: bold;
+}

@@ -1,0 +1,28 @@
+.circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-image: url(../../assets/img/郡山少年湖畔の村.jpg);
+  margin: 10px;
+}
+mat-card {
+  margin: 10px;
+}
+.summary {
+  font-size: 20px;
+  border-bottom: 3px solid #f6ba33;
+}
+iframe {
+  margin: 20px;
+}
+.button {
+  font-size: 15px;
+  background-color: white;
+  margin: 10px 10px 10px 200px;
+  background-color: #f7e8cf;
+  color: white;
+}
+.href {
+  text-decoration: none;
+  color: black;
+}

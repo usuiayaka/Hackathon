@@ -1,0 +1,11 @@
+<mat-sidenav-content>
+  <p class="summary">広域郡山アラート</p>
+  <p>市町村を選んでその市町村の避難所一覧や医療施設を見ることができます。</p>
+  <div class="button-contener">
+    <div *ngFor="let article of articles">
+      <button class="button-contener" mat-flat-button>
+        <a class="href" routerLink="/sukagawa">{{ article }}</a>
+      </button>
+    </div>
+  </div>
+</mat-sidenav-content>

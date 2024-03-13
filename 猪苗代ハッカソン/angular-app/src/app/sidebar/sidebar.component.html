@@ -1,0 +1,30 @@
+<mat-toolbar class="toolbar">
+  <mat-toolbar-row>
+    <button mat-button (click)="opened = !opened">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <h2>郡山広域圏災害連携アプリ</h2>
+
+    <!-- <button mat-button><mat-icon>home</mat-icon>Top</button> -->
+  </mat-toolbar-row>
+</mat-toolbar>
+<mat-sidenav-container>
+  <mat-sidenav [(opened)]="opened" mode="over">
+    <mat-list>
+      <mat-list-item><a routerLink="">地域選択画面</a></mat-list-item>
+      <mat-list-item
+        ><a routerLink="/searchShelter">近くの避難所検索画面</a></mat-list-item
+      >
+      <mat-list-item
+        ><a routerLink="/home">近くの医療施設検索</a></mat-list-item
+      >
+      <mat-list-item
+        ><a routerLink="/manual">災害時マニュアル</a></mat-list-item
+      >
+      <mat-list-item><a routerLink="/account">アカウント情報</a></mat-list-item>
+      <mat-list-item><a routerLink="/home">お問い合わせ</a></mat-list-item>
+    </mat-list>
+  </mat-sidenav>
+  <!-- modeをpushに変えると、隣の要素を押し出すようになる　sideにすると横に押し出す  -->
+  <mat-sidenav-content><router-outlet></router-outlet></mat-sidenav-content>
+</mat-sidenav-container>
