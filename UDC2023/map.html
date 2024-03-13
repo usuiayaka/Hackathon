@@ -1,0 +1,68 @@
+
+
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>エリア音楽アプリ</title>
+    <link rel="stylesheet" href="map.css" />
+    <link rel="stylesheet" href="./top.css" type="text/css">
+    <link rel="stylesheet" href="./tops.css" type="text/css">
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@400;700&display=swap"
+  />
+  </head>
+  <body>
+    <script src="./hamburger.js"></script>
+    <div class="navbar">
+        <span class="menu-icon" onclick="toggleMenu()">&#9776; MENU</span>
+        <div class="menu-items">
+          <a href="top.html" onclick="movement1()">TOP</a>
+          <a href="detail.html" onclick="movement4()">遊び方</a>
+          <a href="map.html" onclick="movement2()">MAP</a>
+          <a href="http://localhost:8080" onclick="movement3()">AR</a>
+        </div>
+      </div>
+
+    <div id="card-container" style="display:none;">
+    <div class="l-wrapper_02 card-radius_02">
+      <article class="card_02">
+        
+          <figure class="card__thumbnail_02">
+            <img
+              src="./assets/greeen.jpeg"
+              alt="greeenの画像"
+              class="card__image"
+              id ="img"
+            />
+            <div class="card__text">
+                <span id="song name">キセキ</span>
+                <span id="artist">GReeeN</span>
+            </div>
+            <button id="playButton">▶</button>
+          </figure>
+        </div>
+      </article>
+    </div>
+</div>
+<div>
+    <span id="label" ></span>
+</div>
+    <div id="map" ></div>
+    <a href="http://localhost:8080" class="btn--yellow btn--cubic">AR！</a>
+
+    <!-- <audio id="audio" loop>
+      <source src="assets\test.mp3" type="audio/mp3" />
+      Your browser does not support the audio tag.
+    </audio> -->
+
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAClLph8ZOx7vPx_ItvUSazXcuN2OzCYn4&callback=initMap"
+    ></script>
+    <script src="map.js"></script>
+  </body>
+</html>
