@@ -1,0 +1,132 @@
+/* body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#map {
+  margin: 20px 10px;
+  height: calc(100% - 100px); /* 20px上下の余白を考慮 
+  width: calc(100% - 50px); 10px左右の余白を考慮 
+} */
+
+body,
+html {
+  background-color: #f7e8cf;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Kaisei Opti", sans-serif;
+}
+
+#map {
+  margin: 20px 100px 30px 100px;
+  height: 400px;
+  width: 1000px;
+}
+
+#audio {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  width: calc(100% - 20px); /* 10px左右の余白を考慮 */
+}
+
+/* カード用 */
+.l-wrapper_02 {
+  margin: 1rem 0px 0px 20px; /* 上下の余白を保ちつつ左側に余白をゼロにする */
+  width: 230px;
+  height: 60px;
+  text-align: left; /* 左寄せにする */
+}
+.card-radius_02 {
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card_02 {
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.16);
+  color: #212121;
+  text-decoration: none;
+}
+
+.card__header_02 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card__thumbnail_02 {
+  margin: 0;
+  order: 0;
+  display: flex; /* アイテムを中央に配置するためにflexを追加 */
+  align-items: center; /* 垂直方向にアイテムを中央に配置するために追加 */
+}
+
+.card__image {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.card__text {
+  display: flex;
+  flex-direction: column;
+  margin: 0; /* 上下の余白をなくす */
+}
+
+.card__text span {
+  margin-bottom: 0; /* テキスト同士の間隔をなくす */
+}
+
+button {
+  margin-left: 40px; /* ボタンとテキストの間隔を調整 */
+  border: none;
+  background-color: #fff;
+  font-size: 25px;
+}
+
+a.btn--yellow {
+  margin: 30px;
+  left: 50%;
+  color: #000;
+  padding: 10px;
+  background-color: #fff100;
+  text-decoration: none;
+  border-bottom: 5px solid #ccc100;
+  border-radius: 50%;
+  font-size: 25px;
+  box-shadow: #212121;
+}
+
+a.btn--yellow:hover {
+  margin-top: 3px;
+  color: #000;
+  background: #fff20a;
+  border-bottom: 2px solid #ccc100;
+}
+
+#card-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#label {
+  margin: 10px; /* Adjust margin as needed */
+  font-size: 20px;
+}
+
+.font {
+  font-family: "Kaisei Opti", sans-serif;
+}
+#playButton {
+  background: none;
+  border: none;
+  font-size: 25px;
+  cursor: pointer; /* Add a pointer cursor for better UX */
+}
