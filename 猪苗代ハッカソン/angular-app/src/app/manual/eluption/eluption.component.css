@@ -1,0 +1,45 @@
+body {
+  margin: 15px;
+}
+.toc-001 {
+  margin-bottom: 30px;
+
+  padding: 1em 1em 1em 2em;
+
+  border: 1px solid #999;
+
+  background-color: #f7f7f7;
+  margin: 20px;
+}
+
+.toc-001 div {
+  display: flex;
+
+  align-items: center;
+
+  margin: 0;
+
+  padding: 5px 0;
+}
+
+.toc-001 ol {
+  list-style-type: disc;
+
+  margin: 0;
+
+  padding: 0 1.2em;
+
+  overflow: hidden;
+}
+
+.toc-001 ol ol {
+  margin-top: 5px;
+}
+
+.toc-001 li {
+  padding: 5px 0;
+}
+
+.toc-001 a {
+  color: #166c9d;
+}

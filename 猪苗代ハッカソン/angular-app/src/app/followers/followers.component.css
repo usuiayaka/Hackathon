@@ -1,0 +1,50 @@
+mat-card {
+  margin: 10px;
+  padding: 5px;
+}
+mat-card-content {
+  padding: 5px 5px;
+}
+
+button {
+  background-color: white;
+
+  margin: 0px 10px 5px 250px;
+}
+
+.name {
+  font-size: 20px;
+  margin: 20px 0px 5px 20px;
+}
+
+.flex {
+  display: flex;
+}
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: chartreuse;
+  margin: 10px;
+}
+
+.circleRed {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: red;
+  margin: 10px;
+}
+
+/* .detail {
+  background-color: chartreuse;
+  color: black;
+  margin: 0px 10px 5px 150px;
+} */
+.button-contar {
+  position: relative;
+}
+.href {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,84 @@
+/* background-color: #f7e8cf; */
+
+.toolbar {
+  background-color: #7d0842;
+  font-size: 20px;
+  color: white;
+}
+mat-sidenav-content {
+  background-color: #f7e8cf;
+  height: 100%;
+}
+
+mat-list {
+  background-color: #7d0842;
+  height: 100%;
+}
+
+mat-toolbar-row {
+  padding: 0px;
+}
+.mat-sidenav-container {
+  height: calc(205vh - 115vh);
+}
+mat-sidenav {
+  width: 200px;
+  background-color: azure;
+}
+mat-list a {
+  text-decoration: none;
+  color: white;
+}
+mat-list-item {
+  margin: 10px 0px 10px;
+}
+.summary {
+  font-size: 20px;
+  text-align: center;
+}
+.flex {
+  /*コレ追加*/
+  display: flex;
+  margin: auto;
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-left: 30px;
+  background-image: url("./ざっそう.png");
+  background: white; /*背景色*/
+}
+.name {
+  padding: 0.5rem 0rem;
+  margin-bottom: 0.2rem;
+  margin-left: 30px;
+  border-bottom: 3px solid #f6ba33;
+  font-weight: bold;
+  font-size: 26px;
+}
+.sub-detail {
+  padding: 0.5rem 0rem;
+  margin-bottom: 0.2rem;
+  margin-left: 20px;
+  margin-right: 10px;
+  border-bottom: 3px solid #f6ba33;
+  font-weight: bold;
+  font-size: 20px;
+}
+.square {
+  width: 50px;
+  height: 50px;
+  margin: 10px 5px auto 20px;
+  background: greenyellow; /*背景色*/
+
+  border-radius: 50%;
+}
+.button {
+  background-color: white;
+  margin: 10px 10px 0px 150px;
+}
+.href {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+}
+
+div {
+  text-align: center;
+
+  display: inline-block;
+
+  border: solid 1px #454545;
+
+  margin: 10px;
+
+  cursor: pointer;
+  background-color: white;
+}
+
+img {
+  width: 100px;
+
+  height: 100px;
+}
+
+a {
+  text-decoration: none;
+
+  color: inherit;
+}
