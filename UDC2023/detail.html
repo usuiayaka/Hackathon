@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>エリア音楽アプリ</title>
+    <link rel="stylesheet" href="detail.css" />
+    <link rel="stylesheet" href="./top.css" type="text/css" />
+    <link rel="stylesheet" href="./tops.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <script src="./hamburger.js"></script>
+    <div class="navbar">
+      <span class="menu-icon" onclick="toggleMenu()">&#9776; MENU</span>
+      <div class="menu-items">
+        <a href="top.html" onclick="movement1()">TOP</a>
+        <a href="detail.html" onclick="movement4()">遊び方</a>
+        <a href="map.html" onclick="movement2()">MAP</a>
+        <a href="http://localhost:8080" onclick="movement3()">AR</a>
+      </div>
+    </div>
+    <span style="font-size: 30px;">アプリについて</span>
+    <div class="img-container">
+      <img src="./assets/map.png" alt="mapの説明" class="imgpng" />
+    </div>
+    <div class="img-container">
+      <img src="./assets/area.png" alt="areaについて" class="imgpng" />
+    </div>
+    <div class="img-container">
+      <img src="./assets/inarea.png" alt="エリア対象内" class="imgpng" />
+    </div>
+    <div class="img-container">
+      <img src="./assets/outsidearea.png" alt="エリア対象外" class="imgpng" />
+    </div>
+    <div class="bun">
+    <a href="./map.html" class="btn--yellow btn--cubic">実際に使ってみる！</a>
+    </div>
+    </html>
