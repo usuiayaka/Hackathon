@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music AR Service</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Economica:700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Quicksand"
+    />
+    <!--<link rel="stylesheet" href="../css/movie.css">-->
+
+    <div class="for-pc">
+      <link rel="stylesheet" href="./top.css" type="text/css" />
+    </div>
+    <div class="for-sp">
+      <link rel="stylesheet" href="./tops.css" type="text/css" />
+    </div>
+  </head>
+
+  <body>
+    <script src="./hamburger.js"></script>
+    <div class="navbar">
+      <span class="menu-icon" onclick="toggleMenu()">&#9776; MENU</span>
+      <div class="menu-items">
+        <a href="top.html" onclick="movement1()">TOP</a>
+        <a href="detail.html" onclick="movement4()">遊び方</a>
+        <a href="map.html" onclick="movement2()">MAP</a>
+        <a href="http://localhost:8080" onclick="movement3()">AR</a>
+      </div>
+    </div>
+    <!--<div class="video-wrap">
+      <video src="../movie/note.webm" autoplay loop muted playsinline>
+        <img src="images/jewellery.jpg" alt="Placeholder">
+      </video>
+    </div>-->
+    <div class="photo">
+      <main class="main">
+        <h1 style="text-align: center">耳で遊ぶ！郡山観光！</h1>
+        <h2 style="text-align: center">
+          位置情報を使って観光地にゆかりのある音楽を楽しもう！
+        </h2>
+        <p style="text-align: center">
+          このサイトでは、位置情報を元にあなたが訪れた観光地にちなんだ楽曲を<br />
+          リアルタイムで聞いたり、ARで観光地の説明を見たりすることができます。<br />
+          今まで知らなかった新しい郡山の魅力を発見してみませんか？
+        </p>
+        <p>さっそく始めてみましょう！☟</p>
+        <button
+          class="button"
+          type="“button”"
+          onclick="location.href='map.html'"
+        >
+          Start!
+        </button>
+      </main>
+    </div>
+  </body>
+</html>

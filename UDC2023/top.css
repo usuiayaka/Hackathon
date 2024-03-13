@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #ff336b;
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+}
+
+.menu-items {
+  background-color: #ff336b;
+  padding: 15px;
+  box-sizing: border-box;
+  z-index: 1;
+  font-family: "Quicksand", sans-serif;
+}
+
+.menu-items a {
+  display: block;
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif;
+}
+
+main {
+  font-family: "Kaisei Opti", sans-serif;
+  color: #e0ffff;
+}
+
+.photo {
+  background: url("./assets/haikei.png") center/cover no-repeat; /* 画像を背景に設定 */
+  height: 100vh; /* ビューポートの高さに合わせる */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  font-family: "Kaisei Opti", sans-serif;
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: #e0ffff;
+  background-color: #db7093;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+  background-color: #ff336b;
+}
